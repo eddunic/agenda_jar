@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width"/>
+        <title>Agenda Online</title>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"/>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link th:href="@{/css/index.css}" href="/css/index.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="container">
+           
+            <div class="row mbr-justify-content-center">
+
+                <div class="col-lg-6 mbr-col-md-10" id="usuario">
+                    <div class="wrap">
+                        <div class="ico-wrap">
+                            <span class="mbr-iconfont fas fa-user fa"></span>
+                        </div>
+                        <div class="text-wrap vcenter">
+                            <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Usuários</h2>                               
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mbr-col-md-10" id="contato">
+                    <div class="wrap">
+                        <div class="ico-wrap">
+                            <span class="mbr-iconfont fas fa-address-book fa"></span>
+                        </div>
+                        <div class="text-wrap vcenter">
+                            <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Contatos</h2>                               
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mbr-col-md-10" id="endereco">
+                    <div class="wrap">
+                        <div class="ico-wrap">
+                            <span class="mbr-iconfont fa-globe fa"></span>
+                        </div>
+                        <div class="text-wrap vcenter">
+                            <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Endereços</h2>                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mbr-col-md-10" id="meioContato">
+                    <div class="wrap">
+                        <div class="ico-wrap">
+                            <span class="mbr-iconfont fa-trophy fa"></span>
+                        </div>
+                        <div class="text-wrap vcenter">
+                            <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Meio Contatos</h2>                               
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <script th:src="@{/js/index.js}" src="/js/index.js"></script>
+    </body>
+</html>
